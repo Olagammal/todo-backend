@@ -4,11 +4,9 @@ import (
 	"time"
 )
 
-type User struct {
+type Tag struct {
 	Id       uint   `json:"id"`
-	Name     string `json:"name"`
-	Email    string `json:"email"`
-	Password string `json:"password"`
+	Tagname     string `json:"tag_name"`
 	Created_at time.Time `json:"created_at"`
 	Updated_at time.Time `json:"updated_at"`
 }
